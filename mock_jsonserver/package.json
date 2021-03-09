@@ -1,15 +1,20 @@
 {
   "name": "jsonserver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fake REST API for testing",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "json:server": "json-server --watch db.json",
-    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "nodemon --exec server.js",
+    "start": "nodemon --exec server.js" 
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
-    "json-server": "^0.16.2"
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.7",
+    "morgan": "^1.10.0"
   }
 }
