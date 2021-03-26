@@ -1,4 +1,5 @@
-# burger-api
+# Burger-api
+
 My Burger Api
 
 
@@ -14,4 +15,13 @@ If you did like the video tutorial, please hit the Like and Subscribe button so 
 * YouTube: https://youtube.com/aniakubow
 * Instagram: https://instagram.com/aniakubow
 
-#burgerAPI
+## Run server locally
+
+Server defaults are ```port:3000``` and ```db.json ``` as a source.
+
+Using ```nodemon``` im starting my server.js with:
+```
+nodemon ./server.js localhost 3000
+or
+npm start
+```
