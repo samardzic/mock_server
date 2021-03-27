@@ -1,0 +1,10 @@
+{
+	"pets": {
+		"hasPet": "True"
+	},
+	"cats": [
+		{
+			"catName": "garfield"
+		}
+	]
+}
